@@ -1,0 +1,21 @@
+@media (max-width: 420px) {
+  .middle {
+    width: 380px;
+  }
+
+  .slider {
+    width: 380px;
+    height: 240px;
+  }
+  .slider-footer {
+    flex-direction: column-reverse;
+  }
+
+  .navigation {
+    align-self: center;
+  }
+  .discription {
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+}
