@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: rgb(90, 89, 87);
 }
 
 .middle {
@@ -16,13 +16,13 @@ body {
 .header {
   font-size: 2em;
   margin: 20px 0px;
+  color: #fff;
 }
 
 .slider {
   width: 700px;
   height: 400px;
   overflow: hidden;
-  border: solid #fff;
 }
 
 .slider-footer {
@@ -60,7 +60,7 @@ body {
 }
 
 .bar:checked {
-  background-color: darkgoldenrod;
+  background-color: rgb(88, 95, 95);
 }
 
 .bar:hover {
@@ -90,10 +90,11 @@ input[name="point"] {
 }
 
 .text {
-  color: darkblue;
+  color: #fff;
   font-size: 22px;
   width: 25%;
   display: inline-block;
+  transition: all 0.6s ease;
 }
 
 .discription {
@@ -104,7 +105,6 @@ input[name="point"] {
 
 .discription-slider {
   width: 100px;
-  border: solid #fff;
   overflow: hidden;
 }
 
