@@ -17,6 +17,7 @@ body {
   font-size: 2em;
   margin: 20px 0px;
   color: #fff;
+  font-family: Noto Sans Mono;
 }
 
 .slider {
@@ -95,6 +96,7 @@ input[name="point"] {
   width: 25%;
   display: inline-block;
   transition: all 0.6s ease;
+  font-family: Noto Sans Mono;
 }
 
 .discription {
